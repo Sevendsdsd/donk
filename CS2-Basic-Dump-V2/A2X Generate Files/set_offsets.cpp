@@ -3610,3 +3610,51 @@ C_Chicken.m_bIsPreviewModel = findOffsetByName(j, "C_Chicken", "m_bIsPreviewMode
 // PhysicsRagdollPose_t Offsets
 PhysicsRagdollPose_t.m_Transforms = findOffsetByName(j, "PhysicsRagdollPose_t", "m_Transforms");
 PhysicsRagdollPose_t.m_hOwner = findOffsetByName(j, "PhysicsRagdollPose_t", "m_hOwner");
+
+// Atribuições para client_dll
+// client_dll Offsets
+client_dll.dwCSGOInput = findOffsetByName(j, "client_dll", "dwCSGOInput");
+client_dll.dwEntityList = findOffsetByName(j, "client_dll", "dwEntityList");
+client_dll.dwGameEntitySystem = findOffsetByName(j, "client_dll", "dwGameEntitySystem");
+client_dll.dwGameEntitySystem_highestEntityIndex = findOffsetByName(j, "client_dll", "dwGameEntitySystem_highestEntityIndex");
+client_dll.dwGameRules = findOffsetByName(j, "client_dll", "dwGameRules");
+client_dll.dwGlobalVars = findOffsetByName(j, "client_dll", "dwGlobalVars");
+client_dll.dwGlowManager = findOffsetByName(j, "client_dll", "dwGlowManager");
+client_dll.dwLocalPlayerController = findOffsetByName(j, "client_dll", "dwLocalPlayerController");
+client_dll.dwLocalPlayerPawn = findOffsetByName(j, "client_dll", "dwLocalPlayerPawn");
+client_dll.dwPlantedC4 = findOffsetByName(j, "client_dll", "dwPlantedC4");
+client_dll.dwPrediction = findOffsetByName(j, "client_dll", "dwPrediction");
+client_dll.dwSensitivity = findOffsetByName(j, "client_dll", "dwSensitivity");
+client_dll.dwSensitivity_sensitivity = findOffsetByName(j, "client_dll", "dwSensitivity_sensitivity");
+client_dll.dwViewAngles = findOffsetByName(j, "client_dll", "dwViewAngles");
+client_dll.dwViewMatrix = findOffsetByName(j, "client_dll", "dwViewMatrix");
+client_dll.dwViewRender = findOffsetByName(j, "client_dll", "dwViewRender");
+client_dll.dwWeaponC4 = findOffsetByName(j, "client_dll", "dwWeaponC4");
+
+// Atribuições para engine2_dll
+// engine2_dll Offsets
+engine2_dll.dwBuildNumber = findOffsetByName(j, "engine2_dll", "dwBuildNumber");
+engine2_dll.dwNetworkGameClient = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient");
+engine2_dll.dwNetworkGameClient_clientTickCount = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_clientTickCount");
+engine2_dll.dwNetworkGameClient_deltaTick = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_deltaTick");
+engine2_dll.dwNetworkGameClient_isBackgroundMap = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_isBackgroundMap");
+engine2_dll.dwNetworkGameClient_localPlayer = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_localPlayer");
+engine2_dll.dwNetworkGameClient_maxClients = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_maxClients");
+engine2_dll.dwNetworkGameClient_serverTickCount = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_serverTickCount");
+engine2_dll.dwNetworkGameClient_signOnState = findOffsetByName(j, "engine2_dll", "dwNetworkGameClient_signOnState");
+engine2_dll.dwWindowHeight = findOffsetByName(j, "engine2_dll", "dwWindowHeight");
+engine2_dll.dwWindowWidth = findOffsetByName(j, "engine2_dll", "dwWindowWidth");
+
+// Atribuições para inputsystem_dll
+// inputsystem_dll Offsets
+inputsystem_dll.dwInputSystem = findOffsetByName(j, "inputsystem_dll", "dwInputSystem");
+
+// Atribuições para matchmaking_dll
+// matchmaking_dll Offsets
+matchmaking_dll.dwGameTypes = findOffsetByName(j, "matchmaking_dll", "dwGameTypes");
+matchmaking_dll.dwGameTypes_mapName = findOffsetByName(j, "matchmaking_dll", "dwGameTypes_mapName");
+
+// Atribuições para soundsystem_dll
+// soundsystem_dll Offsets
+soundsystem_dll.dwSoundSystem = findOffsetByName(j, "soundsystem_dll", "dwSoundSystem");
+soundsystem_dll.dwSoundSystem_engineViewData = findOffsetByName(j, "soundsystem_dll", "dwSoundSystem_engineViewData");
